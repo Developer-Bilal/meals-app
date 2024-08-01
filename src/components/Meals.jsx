@@ -30,7 +30,7 @@ const Meals = () => {
           <article key={idMeal} className="single-meal">
             <img
               src={image}
-              alt="Meal-image"
+              alt="Meals"
               className="img"
               onClick={() => selectMeal(idMeal)}
             />
